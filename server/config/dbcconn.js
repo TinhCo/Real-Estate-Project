@@ -8,7 +8,7 @@ const sequelize = new Sequelize(
         host: process.env.DB_HOST,
         dialect: process.env.DB_DIALECT,
         logging: false,
-        timezone: '+07:00'
+        timezone: "+07:00"
     });
 
 const dbconn = async () => {
